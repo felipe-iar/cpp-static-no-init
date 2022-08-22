@@ -4,7 +4,6 @@
 using namespace std;
 
 class Demo {
-
 public:
   Demo() = default;
   ~Demo() = default;
@@ -16,7 +15,6 @@ public:
     cout << "whatever[2]=" << hex << static_cast<int>(this->whatever[2]) << endl;
     cout << "whatever[3]=" << hex << static_cast<int>(this->whatever[3]) << endl;
   }
-
   __root static uint8_t whatever[20] @ "System_Mailbox";
 };
 
