@@ -1,0 +1,8 @@
+C
+CPP
+settings/*.ps1
+settings/*.xcl
+settings/*.bat
+
+*.ewt
+*.dep
