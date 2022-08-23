@@ -24,16 +24,16 @@ void main()
 {
   Demo d1,d2;
 
-  d1.set(0, 0x41);
-  d1.set(1, 0x42);
-  d1.set(2, 0x43);
-  d1.print();
+  while(1) {
+    d1.set(0, 0x41);
+    d1.set(1, 0x42);
+    d1.set(2, 0x43);
+    d1.print();
 
-  d2.set(0, 0x14);
-  d2.set(1, 0x24);
-  d2.set(2, 0x34);
-  d2.print();
-
-  while(1);
+    d2.set(0, 0x14);
+    d2.set(1, 0x24);
+    d2.set(2, 0x34);
+    d2.print();
+  }
 }
 
