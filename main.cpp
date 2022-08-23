@@ -10,10 +10,10 @@ public:
 
   void set(uint8_t i, uint8_t v) { this->whatever[i] = v; }
   void print() {
-    cout << "whatever[0]=" << hex << static_cast<int>(this->whatever[0]) << endl;
-    cout << "whatever[1]=" << hex << static_cast<int>(this->whatever[1]) << endl;
-    cout << "whatever[2]=" << hex << static_cast<int>(this->whatever[2]) << endl;
-    cout << "whatever[3]=" << hex << static_cast<int>(this->whatever[3]) << endl;
+    cout << "whatever[0]=0x" << uppercase << hex << static_cast<int>(this->whatever[0]) << endl;
+    cout << "whatever[1]=0x" << uppercase << hex << static_cast<int>(this->whatever[1]) << endl;
+    cout << "whatever[2]=0x" << uppercase << hex << static_cast<int>(this->whatever[2]) << endl;
+    cout << "whatever[3]=0x" << uppercase << hex << static_cast<int>(this->whatever[3]) << endl;
   }
   __root static uint8_t whatever[20] @ "System_Mailbox";
 };
